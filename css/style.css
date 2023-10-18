@@ -1,0 +1,77 @@
+h1{
+    background: rgb(255, 183, 0);
+    color: rgb(149, 31, 31);
+    border: black groove;
+}
+
+    
+h2{
+    background: rgb(98, 2, 2);
+    color: rgb(212, 166, 13);
+    border: black groove;
+    font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+  body {
+    background-color: rgb(242, 185, 79);
+  } 
+ul {
+    font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif; color: rgb(79, 35, 3);
+}
+header { 
+    background-color: rgb(123, 14, 14);
+
+}
+/* menu */
+
+#menu ul {
+  list-style:none;
+  margin:0;
+  padding:0;
+ }
+ 
+
+ 
+ #menu ul li {
+  background-color:rgb(123, 14, 14);
+ }
+ 
+
+ 
+ #menu ul a {
+  display:block;
+  color: rgb(212, 166, 13);
+  text-decoration:none;
+  font-weight:400;
+  font-size:15px;
+  padding:10px;
+  font-family:"HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform:uppercase;
+  letter-spacing:1px;
+ }
+ 
+
+ 
+ #menu ul li {
+  position:relative;
+  float:left;
+  margin:0;
+  padding:0;
+ }
+ 
+ 
+ 
+ #menu ul li:hover {
+  background:#01060e;
+ }
+ 
+
+#menu ul ul {
+  display:none;
+  position:absolute;
+  top:100%;
+  left:0;
+  background:#eee;
+  padding:0;
+ }
+ 
+ 
